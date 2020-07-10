@@ -45,11 +45,14 @@ your age given your birth year and a year in the future.
 */
 
 // 1. Store your birth year in a variable.
+const yearOfBirth = 1995;
 
 // 2. Store a future year in a variable.
+let futureYear = 2040;
 
 // 3. Calculate your 2 possible ages for that year based on the stored values.
 // For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
+let myFutureAge = futureYear - yearOfBirth;
 
 // 4. Create a variable called message which describes the result.
 // "I will be either NN or NN in YYYY", substituting the values.
