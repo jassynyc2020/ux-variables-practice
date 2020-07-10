@@ -52,8 +52,8 @@ let futureYear = 2040;
 
 // 3. Calculate your 2 possible ages for that year based on the stored values.
 // For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
-let myFutureAge = futureYear - yearOfBirth;
-
+ let myFutureAge = futureYear - yearOfBirth;
+ 
 // 4. Create a variable called message which describes the result.
 // "I will be either NN or NN in YYYY", substituting the values.
 
@@ -71,11 +71,12 @@ Fahrenheit to Celcius:  Deduct 32, then multiply by 5, then divide by 9
 
 // 1. Store a celsius temperature into a variable.
 // Hint: let tempInCelcius = 32;
-
+let tempInCelcius = 32;
 // 2. Convert it to fahrenheit and store that in a new variable.
-
+let fahrenheit = (tempInCelcius / 5) * 9 + 32; 
 // 3. Output to console.log() in the format "NN°C is NN°F".
-
+console.log(fahrenheit);
+console.log(celcius):
 // 4. Now store a fahrenheit temperature into a variable.
 
 // 5. Convert it to celsius  and store that in a new variable.
