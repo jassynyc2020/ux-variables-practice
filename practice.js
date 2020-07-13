@@ -28,7 +28,7 @@ let lifetimeTotalNumberOfBags = 365 * estimatedNumberOfBags * maximumAge;
 
 // 5. Create a variable called message describing your result.
 // "You will need NN to last you until the ripe old age of X".
-let message =
+let totalBagsTillAge70 =
   "I will need " +
   lifetimeTotalNumberOfBags +
   " " +
@@ -55,7 +55,7 @@ let futureYear = 2040;
 let myFutureAge = futureYear - yearOfBirth;
 // 4. Create a variable called message which describes the result.
 // "I will be either NN or NN in YYYY", substituting the values.
-let message =
+let myAgesInFuture =
   "I will be either " +
   myFutureAge +
   " or " +
@@ -63,7 +63,7 @@ let message =
   " in " +
   futureYear;
 // 5. console.log() your message.
-console.log(message);
+console.log(myAgesInFuture + " or " );
 
 /*
 Exercise Three - Temperature Converter
