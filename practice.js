@@ -12,32 +12,37 @@ Remember to use descriptive variable names!
 
 // 1. Store your current age into a variable.
 // Hint: let age = ...;
-let myAge = 25;
 
 // 2. Store a maximum age into a variable.
-const maximumAge = 70;
 
 // 3. Store an estimated amount per day (as a number).
 // For example 1, for 1 bag of chips per day.
-const estimatedNumberOfBags = 1;
 
 // 4. Calculate how many you would eat total for the rest of your life.
 // Store the result in a variable.
 // Hint: There are 365 days in a year, multiply that by the number of years and the amount per day...
-let lifetimeTotalNumberOfBags = 365 * estimatedNumberOfBags * maximumAge;
 
 // 5. Create a variable called message describing your result.
 // "You will need NN to last you until the ripe old age of X".
-let totalBagsTillAge70 =
-  "I will need " +
-  lifetimeTotalNumberOfBags +
-  " " +
-  "to last me until the ripe old age of " +
-  maximumAge;
 // 6. console.log() your message.
-console.log("By that time, I will be under the ground.");
+
+let myAge = 25;
+const maximumAge = 70;
+const estimatedNumberOfBags = 1;
+let lifetimeTotalNumberOfBags = 365 * estimatedNumberOfBags * maximumAge;
+let totalBagsTillAge70 =
+"I will need " +
+lifetimeTotalNumberOfBags +
+" " +
+"to last me until the ripe old age of " +
+maximumAge;
+console.log(totalBagsTillAge70);
+
 
 /*
+
+
+
 Exercise Two - Calculating your future age.
 
 You want to know how old you will be in any given year.  Create a piece of code that will computer
@@ -45,7 +50,7 @@ your age given your birth year and a year in the future.
 */
 
 // 1. Store your birth year in a variable.
-const yearOfBirth = 1995;
+const yearOfBirth = 1996;
 
 // 2. Store a future year in a variable.
 let futureYear = 2040;
@@ -63,7 +68,7 @@ let myAgesInFuture =
   " in " +
   futureYear;
 // 5. console.log() your message.
-console.log(myAgesInFuture + " or " );
+console.log(myAgesInFuture);
 
 /*
 Exercise Three - Temperature Converter
